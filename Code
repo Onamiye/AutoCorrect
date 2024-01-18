@@ -1,0 +1,7 @@
+#Autocorrect Program. This Program uses TextBlob library to autocorrect words for users.
+
+from textblob import TextBlob
+
+sentence =TextBlob(input("Enter your word: ")).correct()
+print(sentence)
+
